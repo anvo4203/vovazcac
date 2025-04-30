@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	box-sizing:border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner img{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: orange;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: right;
+	padding-top: 15px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px 30px;
+	font-size: 18px;
+}
+
+.menu a:hover{
+	color: yellow	;
+}
+
+
+.tour {
+    width: 25%;
+	padding: 15px;
+	float: left;
+}
+
+.vien{
+	width: 100%;
+	border: 1px solid blue;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.imgz{
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+}
+
+.tour h2{
+	color: blue;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.price{
+	padding-bottom: 20px;
+	color:red;
+	font-size: 15px;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+	color: white;
+	clear: both;
+}
+
+
+/* --------------------------------------------- */
+
+
+.lh{
+	color: rgb(23, 58, 255);
+	text-decoration: underline;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+form {
+	width: 40%;
+	padding: 5px 20px;
+	float: left;
+	
+}
+
+.site{
+	width: 60%;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 15px;
+}
+.site1{
+	width: 60%;
+	float: right;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.site p{
+	padding-top:15px;
+}
+
+.site1 p{
+	padding-top:15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+input, textarea {
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 7px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+button {
+	background-color: #007bff;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+}
+button:hover {
+	background-color: #0056b3;
+}
+
+
+
+
